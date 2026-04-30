@@ -5,7 +5,7 @@ import { Directive, HostListener } from '@angular/core';
 })
 export class CreditCardDirective {
 
-  constructor() { }
+  constructor(){}
 
   @HostListener('input', ['$event'])
   validateCreditCard(eve:Event){
