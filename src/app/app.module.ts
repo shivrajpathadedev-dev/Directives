@@ -2,10 +2,12 @@ import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
 import { AppComponent } from './app.component';
+import { CssHighLighterDirective } from './shared/directives/cssHighLighter.dierctive';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    CssHighLighterDirective
   ],
   imports: [
     BrowserModule
